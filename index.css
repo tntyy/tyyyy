@@ -1,0 +1,129 @@
+.THONGTIN{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-l8z5p1QcFaqOLYoC1ZJ-yvo2pn4dPm8xQ&s'); */
+    background-color: black;
+
+    width: 100%;
+     /* thiết lập chiều rộng của phần tử */
+    height: 110px;
+    /* thiết lập chiều dài của phần tử */
+    margin: 10px auto;
+    /* thiết lạp khoảng cách xung quanh phần tử */
+
+   padding-top: 10px;
+
+   /* sawps xep thu tu hien thi */
+   z-index: 2; 
+   position: relative;
+
+   /* xoa bo gach   chan */
+
+   
+    text-align: right;
+   
+}
+
+.THONGTIN a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.thontin1{
+    background-color:aliceblue;
+    width: 1000px;
+    /* thiết lập chiều rộng của phần tử */
+    height: 400px;
+    /* thiết lập chiều dài của phần tử */
+    margin: 60px auto;
+    /* thiết lạp khoảng cách xung quanh phần tử */
+    padding-top: 20px;
+    /* tạo  khoảng trắng trên đầu */
+
+    /* sap xep hien thi */
+    z-index: 2;
+    position: relative;
+}
+
+.anh p{
+    text-align: left;
+}
+
+.THONGTIN button{
+    color:aliceblue;
+    margin: 1px 18px; /* Tạo khoảng trống giữa các nút */
+    padding: 5px 20px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.5;
+    border: none; /* loai bo vien maac dinh */
+    border-radius: 25px;  /* tao goc bo tron */
+    cursor: pointer; /* thay doi con tro khi di chuyen vao o */
+
+}
+
+.anh {
+    
+    width: 900px;
+    height: 10000px;
+    margin: 10px auto;
+    padding-top: 20px 20px;
+    text-align: center;
+}
+.anh img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.image-top-right{
+    position:absolute;
+
+    top: 20px;
+    /* tạo khonagr trắngtreen đầu */
+
+    left: 11px;
+    /* tạo khoảng trắng bên trái */
+
+    width: 90px;
+    /* thiết lập chiều rộng của phàn tử */
+
+    height: 20;
+
+    z-index: 1000;
+
+    text-align: right;
+
+}
+
+.card:hover{
+    transform: scale(1);/* phóng to  */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 4);/* thêm bóng hover */
+}
+
+.card:hover img{
+    fill: grayscale(0);
+    /* loai bo grayscale khi hover */
+}
+
+.card img {
+    fill: grayscale(.65);/* áp dụng grayscale cho hình ảnh */
+    transform: all .3s ease;/* đảm bảo hiệu ưng  chuyển đỏi mượt hơn */
+    margin: auto;
+}
+
+
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+td { 
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center;
+
+} 
+tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+} 
+.price { 
+    color: red; text-align: center; 
+}

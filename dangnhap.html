@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI DIV</title>
+    <style>
+       
+        .thongtin{
+            background-color:aliceblue;
+            width: 800px;
+            /* thiết lập chiều rộng của phần tử */
+            height: 500px;
+            /* thiết lập chiều dài của phần tử */
+            margin: 50px auto;
+            /* thiết lạp khoảng cách xung quanh phần tử */
+            padding-top: 20px;
+            /* tạo  khoảng trắng trên đầu */
+        }
+        .thongtin a {
+            text-decoration: none;
+            /* xóa gachj chânchân */
+            color: inherit;  
+            /* giữ nguyên mùa chữ */
+        }
+        .thongtin img {
+            width: 100PX;
+            /* thiết lập chiều rộng của phần tử */
+            height: 100px;
+            /* thiết lập chiều dài của phần từ */
+            border-radius: 50%;
+            /* tạo viền tròn cho phần tử bằng cách làm cho bán
+            kính viền là 50%  */
+            overflow: hidden;
+            /* ẩn bất kì nội dung nào vượt ra ngoài biên giới cảu phàna tử */
+
+            text-align: center;
+        }
+        .thongtin b{
+            
+            
+            padding: 4px; 
+            /* tao khoang trang */
+
+            border-radius: 5px; 
+            /* taoj cac goc bo tron cho cac o */
+
+           
+
+
+        }
+
+        button a{
+            color: white;
+            /* cho màu chữ liên kết button */
+        }
+        button{
+            border-radius: 50px;
+        }
+
+        .thongtin input{
+             
+            padding: 5px; 
+            /* tao khoang trang */
+
+            border-radius: 4px; 
+            /* taoj cac goc bo tron cho cac o */
+
+            border: 1px solid #ccc;
+            /* Thiết lập viền của các ô nhập liệu là đường viền 1px, màu xám nhạt. */
+
+        }
+    </style>
+</head>
+<body style=" text-align: center; background-color: bisque;">
+    <div class="thongtin">
+        
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQIFBgQD/8QALxABAAIBAgMGBQMFAAAAAAAAAAECEQMEBSExEhMiQVFxMlJhgZEzQlMjNHKhsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A7wBpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQmtbT8MTPsUBbutT+O34VtW1esTH2AFZ5LAAAAAAAAAAAAAAAAAAAFYm1orWMzPQa3CdpFa99ePFPRNEbPhdax2tfxTP7WjTR06RilK1XEVGPZF9Kl4xasT9lgGbu+Gado7Wh4bejJ1KWpea2jEw6iYyz+J7SNSneUjx1/2oxo6CInklUAAAAAAAAAAAAAAAAW0qzfWpSP3S6WlIpWKx0iMMHhcdre1z+2MugTVAEAABExFsxKQHN7vT7rcXpHryfJ7eMUxuomPOHiVABQAAAAAAAAAAAAANHr4T/eR7N5zux1O73VJ9Zw6KJZUAAAAABjca/XpH0Z718Uv3m7nHPsxh5VRACgAAAAAAAAAAAAACPPPnl0Wx1u+29bZ59Jc89Gx3M7XW7U/DPWE1XQimnqV1KRes5ifNfOUADOAHx3WrGjpWvnnjl7vpe8Up2rTiI82HxDdzuLdms+CAeS1rWtNp6zOQjoNIAAAAAAAAAAAAAAAACBNH22+61dtOaWns/LLU0OKaNq+OJrPmxswjkK6Gd/tsfqx7PjrcU0aR4PFPsxORyB6N1vNXczGbYr6Q+Eco5I9k5xBiAjKYWgGQAAAAAAAAAAAFtLSvrXilK858/Q0U5zaKx1l7tvw3W1cW1P6df8ArQ2my09vETiLW85l68cmVePT4boU5zXtT9ZeiNtoV6aVPw+uIAU7nS+Sv4O50vkr+FwFO50vkr+DudL5K/hcBTuNL+Ov4VnbaE850q5fUB49bh+31M+Gaz9Hh3HDNSlc6Vu39G0Yj0By01tWcWrMT6SN/dbPT3FZzHZt5SxNfRvoX7N4+6o+YCgAAAAAASEgVza0ViOczyb+w2sbfT587T1ln8J28X1J1bfDXo2IlNVbkckZMoJEZMgkRkyCRGTIJEZMgkRkyCZxh593tq7jTmtoxMdJffJkHMXpbStNL9YQ0+MbfprV+7LjquIkBQAAAARbolMc5iPWQb2w0+72tIx1jL7ZU0+WnWPonKRVsmVchBbJlUILZMqmSC2TKuTJBbJlXJkgtkyrkyQWyZVyZIKbqvebe9fo5+HR5zy9XP6sdnWvHpKooAAAAGYMwAmvxV90ZInxVn0kHRV+GPZCKWi1K2ieUwnJQTlGTJROTKMmSicoMmSiRGTJVAyZKAZMlAMmSiY6sHXn+vqf5S3ZmIjOejA1LRbV1JjztJUVDJmAAzBmAf/Z" alt="ảnh thông tin" >
+        <h2 >ĐĂNG NHẬP TÀI KHOẢNG</h2>
+        <p><b>Email:        </b>   <input type="email"  name="Email:" id="Email:" placeholder="Nhập email"></p>
+
+        <p><b>Mật khẩu:  </b> <input type="matkhau" name="Matkhau" id="Matkhau" placeholder="Nhập mật khẩu"></p>
+        <br />
+        
+        <p style="color: blue;"><a>  Quên mật khẩu ? </a></p>
+        
+        <button style="background-color: rgba(0, 21, 255, 0.604);">
+            <a href="https://www.facebook.com/" ">Facebook</a>
+        </button>
+        <button style="background-color: red;">
+            <a href="https://zaloweb.me/">Zalo  </a>
+        </button>
+        <br /><br />
+        
+        <button style="background-color: blue;">
+            <a href="http://127.0.0.1:5500/web/index.html">  <h2>ĐĂNG NHẬP</h2>  </a>
+        </button>
+        
+        <button style="background-color:aliceblue; color: blue;">
+            <a href="http://127.0.0.1:5500/web/dangky.html">  <h3>   ĐĂNG KÝ</h3> </a>
+        </button>
+ 
+    </div>
+    
+</body>
+</html>
